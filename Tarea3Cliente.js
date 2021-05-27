@@ -14,10 +14,21 @@
 
 (function() {
     'use strict';
-    //document.querySelector("#element_id");
     var llave = document.getElementsByClassName("llave");
+    var hexllave = CryptoJS.enc.Hex.parse(llave[0].id);
+
     var nonce = document.getElementsByClassName("nonce");
+    var hexnonce = CryptoJS.enc.Hex.parse(nonce[0].id);
+
     var mensaje = document.getElementsByClassName("AES");
+    var mensajestring = mensaje[0].id
+
+
+
+    var eax = CryptoJS.EAX.create(hexllave);
+    var textoplano = eax.decrypt(mensajestring, hexnonce, vacio);
+
+    console.log(textoplano);
 
 
 
