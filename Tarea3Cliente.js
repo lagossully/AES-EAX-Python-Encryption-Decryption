@@ -7,7 +7,7 @@
 // @require     https://raw.githubusercontent.com/artjomb/cryptojs-extension/master/lib/cryptojs-aes.min.js
 // @require     https://raw.githubusercontent.com/artjomb/cryptojs-extension/master/lib/cryptojs-mode-ctr.min.js
 // @require     https://raw.githubusercontent.com/artjomb/cryptojs-extension/master/build/eax.min.js
-// @match        file:///C:/Users/diego/Documents/*
+// @match        https://lagossully.github.io/CriptografiaTarea3/
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // ==/UserScript==
