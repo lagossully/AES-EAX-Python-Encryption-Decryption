@@ -26,7 +26,7 @@
 
 
     var eax = CryptoJS.EAX.create(hexllave);
-    var textoplano = eax.decrypt(mensajestring, hexnonce, vacio);
+    var textoplano = eax.decrypt(mensajestring, hexnonce);
 
     console.log(textoplano);
 
